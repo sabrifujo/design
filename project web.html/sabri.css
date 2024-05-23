@@ -1,0 +1,140 @@
+### CSS (styles.css)
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url(EASTC\ LOGO.jpeg );
+
+    color: #96b8d5d3;
+    padding-top: 130px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(48, 125, 208);
+    overflow: -moz-hidden-unscrollable;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    background-color: 2px solid #4791f2;
+    padding-bottom: 0.5rem;
+}
+
+footer {
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #353535;
+}
+
+td {
+    background-color: #606060;
+}
+
+head{
+    background-image: url("kuku.jpg");
+}
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    padding: ;
+}
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 50%;
+    border-radius: 10px;
+}
+.container{
+ max-width:800px;
+ margin:20px auto;
+ font-size: large;
+ padding:20px;
+ background-color:#d3dfde;
+ border-radius:8px;
+ box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+}
+h2{
+    color: rgb(21, 181, 234);
+}
